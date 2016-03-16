@@ -1,0 +1,75 @@
+/*
+ * ==================================
+ * Over/Undershoot for Numix-Schlipak
+ * ==================================
+ */
+
+/* Overshoot */
+.overshoot.top {
+  background-position: center top;
+  background-color: alpha(@selected_bg_color, 0.1);
+  border: none;
+  border-radius: 0 0 50% 50%;
+  box-shadow: none;
+}
+
+.overshoot.bottom {
+  background-position: center bottom;
+  background-color: alpha(@selected_bg_color, 0.1);
+  border: none;
+  border-radius: 50% 50% 0 0;
+  box-shadow: none;
+}
+
+.overshoot.left {
+  background-position: left center;
+  background-color: alpha(@selected_bg_color, 0.1);
+  border: none;
+  border-radius: 0 50% 50% 0;
+  box-shadow: none;
+}
+
+.overshoot.right {
+  background-position: right center;
+  background-color: alpha(@selected_bg_color, 0.1);
+  border: none;
+  border-radius: 50% 0 0 50%;
+  box-shadow: none;
+}
+
+/* Undershoot */
+.undershoot.top {
+  background-image: linear-gradient(to top, transparent, alpha(#000, 0.10));
+  background-size: 100% 8px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  border: none;
+  box-shadow: none;
+}
+
+.undershoot.bottom {
+  background-image: linear-gradient(to top, alpha(#000, 0.10), transparent);
+  background-size: 100% 8px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  border: none;
+  box-shadow: none;
+}
+
+.undershoot.left {
+  background-image: linear-gradient(to left, alpha(#000, 0.10), transparent);
+  background-size: 8px 100%;
+  background-repeat: no-repeat;
+  background-position: left center;
+  border: none;
+  box-shadow: none;
+}
+
+.undershoot.right {
+  background-image: linear-gradient(to left, transparent, alpha(#000, 0.10));
+  background-size: 8px 100%;
+  background-repeat: no-repeat;
+  background-position: right center;
+  border: none;
+  box-shadow: none;
+}

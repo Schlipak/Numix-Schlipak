@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Numix-Schlipak
+Comment=A modern flat theme - Schlipak tweak
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Numix-Schlipak
+MetacityTheme=Numix-Schlipak
+ButtonLayout=:minimize,maximize,close
