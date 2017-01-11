@@ -4,4 +4,6 @@ My personnal modification of the amazing [Numix](https://github.com/numixproject
 
 This repo is mostly for backup. Only Cinnamon, GTK* and Metacity themes are modified. (yet?)
 
+**This is mostly used to backup my personal theme mod, just in case...**
+
 ![Thumbnail](cinnamon/thumbnail.png)
